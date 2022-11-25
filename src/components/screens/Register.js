@@ -29,8 +29,8 @@ export default function Register() {
     return (
         <Contenedor>
             <Title>Registrate como nuevo juez</Title>
-            <Input placeholder="¿Cuál es tu nick?" value={nickname} onChange={(e) => setNickname(e.target.value)} />
             <Input placeholder="¿Cuál es tu nombre?" value={name} onChange={(e) => setName(e.target.value)} />
+            <Input placeholder="¿Cuál es tu nick?" value={nickname} onChange={(e) => setNickname(e.target.value)} />
             <Input placeholder="¿Cuál es tu correo?" value={email} onChange={(e) => setEmail(e.target.value)} />
             <Input type='password' placeholder="Establece una contraseña" value={password} onChange={(e) => setPassword(e.target.value)} />
             <div>
